@@ -10,6 +10,7 @@ kotlin-intro/.groovy/
 kotlin-intro/out/
 kotlin-intro/.DS_Store
 kotlin-intro/?/
+kotlin-intro/src/*.jar
 kotlincon-concurrence/target/
 kotlincon-concurrence/.settings/
 kotlincon-concurrence/.classpath
