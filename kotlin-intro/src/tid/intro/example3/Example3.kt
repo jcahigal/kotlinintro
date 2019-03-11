@@ -2,7 +2,7 @@ package tid.intro.example3
 
 import tid.intro.Example
 
-class Example3(var name: String) : Example {
+class Example3 constructor(var name: String) : Example {
 
     init {
         name = "$name $SUFFIX"

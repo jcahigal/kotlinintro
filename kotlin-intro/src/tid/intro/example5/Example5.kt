@@ -28,9 +28,9 @@ class Example5(val users: List<User>) : Example {
     fun printPersonalInfo() =
         users.stream().forEach{
             it.personalInfo?.let {
-                println(Output(null,
+                Output(null,
                         it.name,
-                        it.surname?.let { it }.orEmpty() ).toString())
+                        it.surname?.let { it }.orEmpty() ).toString().also(::println)
             }
         }
 
