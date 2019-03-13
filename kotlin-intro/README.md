@@ -4,7 +4,7 @@
 
 > cd kotlin-intro/src
 
-> kotlinc Runner.kt -include-runtime -d intro.jar
+> kotlinc tid -include-runtime -d intro.jar
 
 > java -jar intro.jar 1
 
